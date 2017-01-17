@@ -1,1 +1,5 @@
 I will be place my fun in class work here.
+badly named file.txt
+classwork-Tues-1-17.txt
+readme.txt
+temp.txt
