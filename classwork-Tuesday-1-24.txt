@@ -1,3 +1,35 @@
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-17.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
+
+history appeneded: 
+  647  find /home/eeb177-student/Desktop/ iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  648  find /home/eeb177-student/Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  649  find ../../../../../Desktop/ iname "*classwork*"
+  650  find ../../../../../Desktop/ -iname "*classwork*"
+  651  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  652  cd 
+  653  Desktop/eeb-177/class-assignments/
+  654  cd Desktop/eeb-177/class-assignments/
+  655  ls
+  656  git add classwork-Tuesday-1-24.txt 
+  657  git commit -m "learning find command" 
+  658  git push
+  659  man git add
+  660  gedit classwork-Tuesday-1-24.txt 
+  661  cd ..
+  662  gedit ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  663  cd csb/unix/sandbox/
+  664  find ../data -maxdepth 1 "*.txt"
+  665  find -maxdepth 1 ../data/  "*.txt"
+  666  find ../data -maxdepth 1 -name  "*.txt"
+  667  touch permissions.txt
+  668  ls -l
+  669  chmod u=rwx permissions.txt 
+  670  ls -l
+  671  chmod g+w, u+x permissions.txt 
+  672  cd ~/Desktop/eeb-177/class-assignments/
+  673  history
+  674  history 100
+  675  history 10
+  676  history 30 >> classwork-Tuesday-1-24.txt 
