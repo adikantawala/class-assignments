@@ -1,0 +1,100 @@
+  771  ls -l
+  772  open gedit
+  773  gedit
+  774  gedit dir.sh 
+  775  ls -l
+  776  $path
+  777  $PATH
+  778  cd
+  779  mkdir scripts
+  780  ls
+  781  cd scripts/
+  782  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+  783  ls
+  784  gedit
+  785  ls -a
+  786  cd
+  787  gedit .bash_profile
+  788  ls
+  789  ls -a
+  790  cd scripts/
+  791  ls
+  792  cd
+  793  ls -l
+  794  cd scripts/
+  795  ls -l
+  796  chmod u+x
+  797  chmod u+x dir.sh 
+  798  ls -l
+  799  cd 
+  800  cd Desktop/
+  801  dir.sh
+  802  cd
+  803  gedit .bash_profile 
+  804  cd
+  805  ls
+  806  ls -a
+  807  gedit .profile 
+  808  sudo reboot
+  809  cd Desktop/eeb-177/lab-work/
+  810  mkdir exercise-3
+  811  ls
+  812  cd exercise-3
+  813  ls
+  814  jupyter notebook
+  815  $PATH
+  816  cd
+  817  cd Desktop/
+  818  dir.sh
+  819  cd
+  820  cd scripts/
+  821  ls
+  822  gedit dir.sh
+  823  cd
+  824  cd Desktop/
+  825  dir.sh
+  826  cd
+  827  cd scripts/
+  828  gedit dir.sh 
+  829  cd
+  830  cd Desktop/
+  831  dir.sh
+  832  ls
+  833  ls -a
+  834  cd 
+  835  cd scripts/
+  836  ls 
+  837  cd
+  838  cd Desktop/
+  839  cd
+  840  ls -a
+  841  clear
+  842  cd scripts/
+  843  gedit in_class_script.sh
+  844  ls
+  845  chmod u+x in_class_script.sh 
+  846  ls -l
+  847  cd
+  848  cd Desktop/eeb-177/lab-work/
+  849  ls
+  850  git status 
+  851  date
+  852  in_class_script.sh 
+  853  cd 
+  854  cd scripts/
+  855  git init
+  856  cd
+  857  cd Desktop/eeb-177/class-assignments/
+  858  ipython
+  859  cd
+  860  cd scripts/
+  861  git remote add origin https://github.com/adikantawala/scripts.git
+  862  git push -u origin master
+  863  ls
+  864  git add dir.sh
+  865  git commit -m "initial commit"
+  866  git push -u origin master
+  867  cd 
+  868  cd Desktop/eeb-177/class-assignments/
+  869  ls
+  870  history 100 >> classwork-Thursday-1-26.txt 
