@@ -7,6 +7,12 @@ output: html_document
 Load in the csv file I created
 
 ```{r cats}
-cats <- read.csv(file = "data/feline-data.csv")
+cats <- read.csv(file = "data/feline-data.csv", as.is= T)
 cats
+str(cats)
+cats$weight+2
+#$ gives you the coulumn
+typeof(cats$coat)
+#R reads character data as factors 
+as.character(cats$coat) -> dd
 ```
