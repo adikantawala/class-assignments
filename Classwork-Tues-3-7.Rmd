@@ -1,0 +1,40 @@
+---
+title: "classwork-Tues-3-7"
+author: "Adi Kantawala"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+
+data(graptPBDB)
+head(graptOccPBDB)
+
+occSpecies<- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+head(occSpecies)
+occGenera <- taxonSortPBDBocc(graptOccPBDB, rank = "genus")
+occFamily <- taxonSortPBDBocc(graptOccPBDB, rank = "family")
+
+plotOccData(occSpecies, groupLabel = "species")
+
+plotOccData(occGenera, groupLabel = "genus")
+
+plotOccData(occFamily, groupLabel = "family")
+
+pdf(file="dtt.pdf")
+
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+
+taxicDivDisc(graptTimeSpecies)
+
+graptTimeGensus <- occData2timeList(occList = occGenera)
+
+taxicDivDisc(graptTimeGensus)
+
+graptTimeFamily <- occData2timeList(occList = occFamily)
+
+taxicDivDisc(graptTimeFamily)
+dev.off()
+```
